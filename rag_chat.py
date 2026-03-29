@@ -68,7 +68,7 @@ llm = ChatGroq(temperature=0, model_name=LLM_MODEL_NAME, api_key=groq_api_key)
 
 base_retriever = vectorstore.as_retriever(
     search_type="similarity",
-    search_kwargs={"k": 10},
+    search_kwargs={"k": 3},
 )
 
 multi_retriever = MultiQueryRetriever.from_llm(retriever=base_retriever, llm=llm)
