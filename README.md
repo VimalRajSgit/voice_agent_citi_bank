@@ -18,3 +18,7 @@ After setup, added a RAG system (`rag_chat.py`).
 * Replaced OpenAI with Groq
 * Used Groq for STT + LLM
 * Used Cartesia for TTS
+
+
+## Screen shot
+![screenshot](./voice_agent.png)
